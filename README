@@ -1,1 +1,3 @@
-This file was created by JetBrains PhpStorm 6.0.3 for binding GitHub repository
+ ==OpenGuestBook==
+ A simple, self built, partial ORM-based & MVC layered guestbook application
+ Uses SqlLite3 filesystem database in var/guestbook.sqlite3
