@@ -1,0 +1,82 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+}
+
+*{
+    font-family: "Segoe UI", 'Calibri', sans-serif;
+}
+
+nav a{
+    margin-right:20px;
+}
+
+.central{
+    padding:10px;
+    max-width:800px;
+    margin:0 auto;
+}
+
+.error{
+    background-color:red;
+    color:white;
+    text-align: center;
+    padding:5px 0;
+}
+.info{
+    background-color: #aeffa6;
+    color: #003e12;
+    text-align: center;
+    padding:5px 0;
+}
+
+#avatar{
+    float:right;
+}
+
+input{
+    padding:5px 10px;
+    font-size:16px;
+}
+
+#login_form{
+    text-align: center;
+}
+
+input[type=submit]{
+    width:200px;
+    /*height: 40px;*/
+    /*line-height: 25px;*/
+    font-size: 25px;
+    display: block;
+
+    padding:5px 15px;
+    background: #e8e8e8;
+    border:0 none;
+    cursor:pointer;
+    border-radius: 5px;
+    margin:10px auto 0;
+}
+
+#comment_form textarea{
+    padding: 10px;
+    width:100%;
+    height: 200px;
+    font-size:20px;
+    border-radius: 10px;
+    background: #fff6ea;
+}
+
+.message{
+    padding:10px;
+    background-color: #dbdbdb;
+    margin-bottom: 3px;
+    clear:both;
+    min-height: 50px;
+}
+
+.message_avatar{
+    float:left;
+    margin-right: 10px;
+}
